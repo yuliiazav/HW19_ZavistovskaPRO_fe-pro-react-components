@@ -5,3 +5,4 @@ import './index.scss';
 import Application from './Application';
 
 createRoot(document.querySelector('.root')).render(<Application />);
+
