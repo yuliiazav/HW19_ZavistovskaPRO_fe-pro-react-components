@@ -14,12 +14,15 @@ let navLinks = [
         label: 'Contact us',
         href: '/#contact'
     },
-
+    {
+        label: 'Help page',
+        href: '/#help'
+    },
 ];
 
-export function NavItem (label, href) {
-     function navItemList () {
-        return  navLinks.map(({label, href}) => {
+export function NavItem(label, href) {
+    function navItemList() {
+        return navLinks.map(({label, href}) => {
             return <li key={label} className="nav-list__item">
                 <a href={href}>
                     {label}
@@ -39,6 +42,6 @@ export function NavItem (label, href) {
 
 
 NavItem.propTypes = {
-            label: PropTypes.string,
-            href: PropTypes.string,
-        }
+    label: PropTypes.string,
+    href: PropTypes.string,
+}
