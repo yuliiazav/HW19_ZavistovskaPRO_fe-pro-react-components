@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 let articlePostsList = [
     {
-        title: "полезных однострочных выражений JavaScript",
+        title: "15 полезных однострочных выражений JavaScript",
         description: "Улучшение JavaScript-кода за пару минут перевод 15 Helpful JavaScript One-Liners",
     },
     {
